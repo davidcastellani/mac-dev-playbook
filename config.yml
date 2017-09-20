@@ -1,0 +1,86 @@
+---
+homebrew_installed_packages:
+  - autojump
+  - git
+  - tree
+  - httpie
+  - curl
+  - wget
+  - vim
+  - hugo
+  - neovim
+  - terraform
+  - htop
+  - bash-completion
+  - vagrant-completion
+  - qemu
+  - fish
+  - aws-shell
+  - awscli
+  - openssl
+  - xclip
+  - oath-toolkit
+  - mackup
+  - docker-completion
+  - colordiff
+  - ansible-lint
+  - youtube-dl
+  - smartmontools
+  - pv
+
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+
+homebrew_cask_apps:
+  - teamviewer
+  - google-chrome
+  - slack
+  - iterm2
+  - keepingyouawake
+  - minikube
+  - vagrant
+  - virtualbox
+  - spotify
+  - steam
+  - atom
+  - battle-net
+  - blue-jeans-launcher
+  - blue-jeans-browser-plugin
+  - discord
+  - keybase
+  - openemu
+  - tunnelblick
+  - vlc
+  - wireshark
+  - wireshark-chmodbpf
+  - rocket-chat
+  - google-drive
+  - google-photos-backup
+  - vagrant-manager
+  - vagrant
+  - font-hack
+  - font-hack-nerd-font-mono
+  - xquartz
+  - google-drive
+  - docker
+  - flux
+  - iina
+  - postico
+  - grammarly
+  - postman
+  - Itsycal
+
+
+mas_installed_apps:
+  - { id: 443987910, name: "1Password" }
+  - { id: 497799835, name: "Xcode" }
+  - { id: 1160374471, name: "PiPifier" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 409183694, name: "Keynote" }
+  - { id: 409203825, name: "Numbers" }
+  - { id: 485812721, name: "TweetDeck" }
+  - { id: 715768417, name: "Microsoft Remote Desktop" }
+  - { id: 1091189122, name: "Bear"}
+#pip_packages:
+#  - name: mkdocs
