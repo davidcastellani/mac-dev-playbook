@@ -2,6 +2,12 @@
 - hosts: all
   connection: local
 
+ vars_prompt:
+    - name: "mas_email"
+      prompt: "what is your Apple App Store email?"
+    - name: "mas_password"
+      prompt: "What is your Apple App Store password?"
+
   vars_files:
     - default.config.yml
 
