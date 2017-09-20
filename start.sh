@@ -24,7 +24,6 @@ fi
 echo "==========================================="
 echo "Setting up your mac using davidcastellani/macsible"
 echo "==========================================="
-xcode-select --install
 sudo easy_install pip
 sudo easy_install ansible
 

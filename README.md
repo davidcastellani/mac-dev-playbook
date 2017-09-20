@@ -9,7 +9,8 @@ This is a work in progress, and is mostly a means for me to document my current 
 ## Installation
 
   1. Clone this repository to your local drive.
-  2. Run `start.sh`  
+  2. Run `xcode-select --install`
+  3. Run `bash <(curl -s https://raw.githubusercontent.com/davidcastellani/macsible/master/start.sh)`
 
 > Note: If some Homebrew commands fail, you might need to agree to Xcode's license or fix some other Brew issue. Run `brew doctor` to see if this is the case.
 
