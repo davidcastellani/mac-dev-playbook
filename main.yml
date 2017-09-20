@@ -2,14 +2,6 @@
 - hosts: all
   connection: local
 
-  vars_prompt:
-    - name: "mas_email"
-      prompt: "what is your Apple App Store email?"
-      private: no
-    # - name: "mas_password"
-    #   prompt: "What is your Apple App Store password?"
-    #   private: no
-
   vars_files:
     - default.config.yml
 
@@ -31,6 +23,14 @@
     - role: fubarhouse.macdock
       when: dockitems_enabled
       tags: ['dockutil']
+
+  vars_prompt:
+    - name: "mas_email"
+      prompt: "what is your Apple App Store email?"
+      private: no
+    # - name: "mas_password"
+    #   prompt: "What is your Apple App Store password?"
+    #   private: no
 
   tasks:
     - include: tasks/ansible-setup.yml
