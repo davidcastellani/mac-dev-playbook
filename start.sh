@@ -38,7 +38,7 @@ if [ ! -d $installdir ]; then
 else
     cd $installdir
     ansible-galaxy install -r requirements.yml
-    ansible-playbook main.yml -i inventory -K --tags "homebrew,mas"
+    ansible-playbook main.yml -i inventory -K --tags "homebrew,mas,dockutil"
 fi
 
 echo "cleaning up..."
