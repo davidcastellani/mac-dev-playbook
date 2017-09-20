@@ -18,7 +18,6 @@ homebrew_installed_packages:
   - aws-shell
   - awscli
   - openssl
-  - xclip
   - oath-toolkit
   - mackup
   - docker-completion
