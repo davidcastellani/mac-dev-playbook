@@ -58,10 +58,9 @@ homebrew_cask_apps:
   - google-photos-backup-and-sync
   - vagrant-manager
   - vagrant
-  - caskroom/fonts/font-hack
-  - caskroom/fonts/font-hack-nerd-font-mono
+#  - caskroom/fonts/font-hack
+#  - caskroom/fonts/font-hack-nerd-font-mono
   - xquartz
-  - google-drive
   - docker
   - flux
   - iina
