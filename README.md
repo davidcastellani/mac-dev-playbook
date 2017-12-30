@@ -8,15 +8,15 @@ This is a work in progress, and is mostly a means for me to document my current 
 
 ## Installation
 
-  1. Clone this repository to your local drive.
-  2. Run `xcode-select --install`
+  1. Run `xcode-select --install`
+  2. Login to the Apple App Store so `geerlingguy.mas` role works.
   3. Run `bash <(curl -s https://raw.githubusercontent.com/davidcastellani/macsible/master/start.sh)`
 
 > Note: If some Homebrew commands fail, you might need to agree to Xcode's license or fix some other Brew issue. Run `brew doctor` to see if this is the case.
 
 ### Running a specific set of tagged tasks
 
-You can filter which part of the provisioning process to run by specifying a set of tags using `ansible-playbook`'s `--tags` flag. The tags available are `dotfiles`, `homebrew`, `mas`, `extra-packages` and `osx`.
+You can filter which part of the provisioning process to run by specifying a set of tags using `ansible-playbook`'s `--tags` flag. The tags available are `dotfiles`, `homebrew`, `mas`, `extra-packages`, `osx`, `dockutil`.
 
     ansible-playbook main.yml -i inventory -K --tags "dotfiles,homebrew"
 

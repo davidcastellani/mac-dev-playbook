@@ -3,7 +3,7 @@
   connection: local
 
   vars_files:
-    - default.config.yml
+    - config.yml
 
   pre_tasks:
     - include_vars: "{{ item }}"
@@ -18,7 +18,7 @@
       when: configure_dotfiles
       tags: ['dotfiles']
     - role: geerlingguy.mas
-      when: mas_installed_apps
+      when: configure_mas 
       tags: ['mas']
     - role: fubarhouse.macdock
       when: dockitems_enabled

@@ -27,7 +27,7 @@ echo "==========================================="
 sudo easy_install pip
 sudo easy_install ansible
 
-installdir="/tmp/setupmac-$RANDOM"
+installdir="/tmp/macsible-$RANDOM"
 mkdir $installdir
 
 git clone https://github.com/davidcastellani/macsible.git $installdir
@@ -38,7 +38,7 @@ if [ ! -d $installdir ]; then
 else
     cd $installdir
     ansible-galaxy install -r requirements.yml
-    ansible-playbook main.yml -i inventory -K --tags "homebrew,mas,dockutil"
+    ansible-playbook main.yml -i inventory -K --tags "homebrew,dockutil"
 fi
 
 echo "cleaning up..."

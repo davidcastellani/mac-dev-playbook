@@ -1,86 +1,106 @@
 ---
-homebrew_installed_packages:
-  - autojump
-  - git
-  - tree
-  - httpie
-  - curl
-  - wget
-  - vim
-  - hugo
-  - neovim
-  - terraform
-  - htop
-  - bash-completion
-  - vagrant-completion
-  - qemu
-  - fish
-  - aws-shell
-  - awscli
-  - openssl
-  - oath-toolkit
-  - mackup
-  - docker-completion
-  - colordiff
-  - ansible-lint
-  - youtube-dl
-  - smartmontools
-  - pv
-  - dockutil
 
+configure_mas: yes
+configure_dotfiles: no
+configure_sudoers: no
+configure_terminal: no
+configure_osx: no
+
+homebrew_installed_packages:
+  - ansible-lint
+  - autojump
+  - awscli
+  - aws-shell
+  - bash-completion
+  - colordiff
+  - curl
+  - docker-completion
+  - dockutil
+  - fish
+  - git
+  - htop
+  - httpie
+  - hugo
+  - jq
+  - mackup
+  - mvnvm
+  - neovim
+  - oath-toolkit
+  - openshift-cli
+  - openssl
+  - pv
+  - qemu
+  - smartmontools
+  - terraform
+  - tree
+  - vagrant-completion
+  - vim
+  - watch
+  - wget
+  - youtube-dl
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
+  - buo/cask-upgrade
 
 homebrew_cask_apps:
-  - teamviewer
-  - google-chrome
-  - slack
-  - iterm2
-  - keepingyouawake
-  - minikube
-  - vagrant
-  - virtualbox
-  - spotify
-  - steam
   - atom
   - battle-net
-  - blue-jeans-launcher
   - blue-jeans-browser-plugin
+  - blue-jeans-launcher
+  - dash
   - discord
+  - docker
+  - firefox
+  - flux
+  - google-chrome
+  - google-photos-backup-and-sync
+  - grammarly
+  - iina
+  - iterm2
+  - itsycal
+  - java
+  - keepingyouawake
   - keybase
+  - minikube
+  - nvALT
   - openemu
+  - plexamp
+  - postico
+  - postman
+  - pycharm-ce
+  - QLMarkdown
+  - rocket-chat
+  - sequel-pro
+  - signal
+  - slack
+  - spotify
+  - steam
+  - teamviewer
   - tunnelblick
+  - tweeten
+  - twitch
+  - vagrant
+  - vagrant-manager
+  - virtualbox
   - vlc
   - wireshark
+  - xquartz
 #  - wireshark-chmodbpf
-  - rocket-chat
-  - google-photos-backup-and-sync
-  - vagrant-manager
-  - vagrant
 #  - caskroom/fonts/font-hack
 #  - caskroom/fonts/font-hack-nerd-font-mono
-  - xquartz
-  - docker
-  - flux
-  - iina
-  - postico
-  - grammarly
-  - postman
-  - itsycal
-
 mas_email: ""
 mas_password: ""
 mas_installed_apps:
-  - { id: 443987910, name: "1Password" }
-  - { id: 497799835, name: "Xcode" }
-  - { id: 1160374471, name: "PiPifier" }
-  - { id: 409201541, name: "Pages" }
+  - { id: 408981434, name: "iMovie" }
   - { id: 409183694, name: "Keynote" }
-  - { id: 409203825, name: "Numbers" }
-  - { id: 485812721, name: "TweetDeck" }
+  - { id: 405399194, name: "Kindle" }
   - { id: 715768417, name: "Microsoft Remote Desktop" }
-  - { id: 1091189122, name: "Bear"}
+  - { id: 409203825, name: "Numbers" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 639968404, name: "Parcel" }
+  - { id: 1160374471, name: "PiPifier" }
+#  - { id: 497799835, name: "Xcode" }
 
 dockitems_remove_all: true
 dockitems_enabled:
@@ -108,50 +128,47 @@ dockitems_enabled:
   - name: Atom
     path: "/Applications/Atom.app"
     pos: 8
-  - name: Atom
-    path: "/Applications/Atom.app"
-    pos: 9
   - name: Postman
     path: "/Applications/Postman.app"
-    pos: 10
+    pos: 9
   - name: Mail
     path: "/Applications/Mail.app"
-    pos: 11
+    pos: 10
   - name: Discord
     path: "/Applications/Discord.app"
-    pos: 12
+    pos: 11
   - name: TweetDeck
     path: "/Applications/TweetDeck.app"
-    pos: 13
+    pos: 12
   - name: Steam
     path: "/Applications/Steam.app"
-    pos: 14
+    pos: 13
   - name: Wireshark
     path: "/Applications/Wireshark.app"
-    pos: 15
+    pos: 14
   - name: IINA
     path: "/Applications/IINA.app"
-    pos: 16
+    pos: 15
   - name: VirtualBox
     path: "/Applications/VirtualBox.app"
-    pos: 17
+    pos: 16
   - name: OpenEmu
     path: "/Applications/OpenEmu.app"
-    pos: 18
+    pos: 17
   - name: Grammarly
     path: "/Applications/Grammarly.app"
-    pos: 19
+    pos: 18
   - name: Messages
     path: "/Applications/Messages.app"
-    pos: 20
+    pos: 19
   - name: Spotify
     path: "/Applications/Spotify.app"
-    pos: 21
+    pos: 20
   - name: Photos
     path: "/Applications/Photos.app"
-    pos: 22
+    pos: 21
   - name: App Store
     path: "/Applications/App Store.app"
-    pos: 23
+    pos: 22
 #pip_packages:
 #  - name: mkdocs
