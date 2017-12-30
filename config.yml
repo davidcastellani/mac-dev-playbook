@@ -45,9 +45,12 @@ homebrew_taps:
 
 homebrew_cask_apps:
   - atom
+  - authy
   - battle-net
+  - bettertouchtool
   - blue-jeans-browser-plugin
   - blue-jeans-launcher
+  - carbon-copy-cloner
   - dash
   - discord
   - docker
@@ -57,6 +60,7 @@ homebrew_cask_apps:
   - google-photos-backup-and-sync
   - grammarly
   - iina
+  - intel-power-gadget
   - iterm2
   - itsycal
   - java
